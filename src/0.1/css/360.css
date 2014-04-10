@@ -17,9 +17,16 @@ body{
     overflow: hidden;
 }
 
+.single_item a{
+	color:#ffbb00;
+}
+.single_item a:hover{
+	opacity:0.6;
+}
+
 
 #wrapper .reel-preloader {
-    background-color: pink;
+    background-color: #ffbb00;
     height: 6px;
     bottom: inherit;
     top: 0;
@@ -93,18 +100,18 @@ body{
 
 
 #wrapper header p{
-    width:100%;
+    width:100%; #
 }
 .arrow-left {
     position: absolute;
     left: 0;
-    background:url(../images/assets/arrow-left.png) no-repeat;
+    background:url(../images/assets/arrow-left.png), #bbb;
     z-index: 10;
     pointer-events:none;
 }
 
 .arrow-right{
-    background:url(../images/assets/arrow-right.png) no-repeat;
+    background:url(../images/assets/arrow-right.png), #bbb;
     position:absolute;
     right: 0;
     pointer-events:none;
@@ -113,7 +120,10 @@ body{
 
 .arrow {
     z-index: 10;
+    border-radius:4px;
     pointer-events:none;
+    background-position:50%;
+    background-repeat:no-repeat;
     opacity:0.2;
     top:45%;
     width:37px;
